@@ -27,3 +27,7 @@ Define the location of .crt and .key files in [server.js](server.js) file:
 Run Node.js server:
 
         # node server.js
+
+**Victim Side:**
+
+Simply inject the content of [keylogger-script.js](keylogger-script.js) file into the victim's application.
