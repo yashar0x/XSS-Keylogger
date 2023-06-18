@@ -33,3 +33,5 @@ Run Node.js server:
 ## Victim Side:
 
 Set the attacker's IP/Domain address and simply inject the content of [keylogger-script.js](keylogger-script.js) file into the victim's application.
+
+**WARNING:** ONLY FOR EDUCATIONAL PURPOSES
