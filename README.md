@@ -2,7 +2,7 @@
 Simple script that sends every keypresses by victim to a simple Node.js app on attacker side
 
 # Usage
-**Attacker Side:**
+## Attacker Side:
 
 Update the npm package manager globally to the latest version and clear the npm cache, which can help resolve certain installation issues:
 
@@ -28,6 +28,6 @@ Run Node.js server:
 
         # node server.js
 
-**Victim Side:**
+## Victim Side:
 
 Simply inject the content of [keylogger-script.js](keylogger-script.js) file into the victim's application.
