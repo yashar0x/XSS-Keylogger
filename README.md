@@ -20,8 +20,8 @@ Install the dependencies:
 Define the location of .crt and .key files in [server.js](server.js) file:
 
         const server = https.createServer({
-        key: fs.readFileSync('{**.key file location**}'),
-        cert: fs.readFileSync('{**.crt file location**}'),
+        key: fs.readFileSync('{.key file location}'),
+        cert: fs.readFileSync('{.crt file location}'),
         }, app);
 
 Run Node.js server:
