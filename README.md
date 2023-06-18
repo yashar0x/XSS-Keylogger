@@ -2,9 +2,9 @@
 Simple script that sends every keypresses by victim to a simple Node.js app on attacker side
 
 # Usage
-**Attacker:**
+**Attacker Side:**
 
-Update the npm package manager globally to the latest versionand clear the npm cache, which can help resolve certain installation issues:
+Update the npm package manager globally to the latest version and clear the npm cache, which can help resolve certain installation issues:
 
         # npm install -g npm@latest
         # npm cache clean --force
