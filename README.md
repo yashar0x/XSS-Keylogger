@@ -2,7 +2,7 @@
 Simple script that sends every keypresses by victim to a Node.js app on attacker side.
 
 # Usage
-## Attacker Side:
+## Attacker
 
 On your Kali:
 
@@ -35,7 +35,7 @@ Run Node.js server:
 
         # node server.js
 
-## Victim Side:
+## Victim
 
 Set the attacker's IP/Domain address and simply inject the content of [keylogger-script.js](keylogger-script.js) file into the victim's application.
 
