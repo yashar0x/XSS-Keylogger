@@ -4,6 +4,9 @@ Simple script that sends every keypresses by victim to a Node.js app on attacker
 # Usage
 ## Attacker Side:
 
+        # git clone https://github.com/yashar0x/XSS-Keylogger
+        # cd XSS-Keylogger
+
 Update the npm package manager globally to the latest version and clear the npm cache, which can help resolve certain installation issues:
 
         # npm install -g npm@latest
