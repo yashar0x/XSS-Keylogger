@@ -6,7 +6,7 @@ Simple script that sends every keypresses by victim to a Node.js app on attacker
 
 On your Kali:
 
-        # git clone https://github.com/yashar0x/XSS-Keylogger
+        # git clone https://github.com/0xShredder/XSS-Keylogger
         # cd XSS-Keylogger
 
 Update the npm package manager globally to the latest version and clear the npm cache, which can help resolve certain installation issues:
