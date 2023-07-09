@@ -39,7 +39,7 @@ Run Node.js server:
 
 Set the attacker's IP/Domain address and simply inject the content of [keylogger-script.js](keylogger-script.js) file into the victim's application.
 
-**If you want to see XSS-Keylogger in action: [Stored-XSS led to Keylogger injection](https://medium.com/bugbountywriteup/stored-xss-led-to-keylogger-injection-c788ab681eb)**
+**If you want to see XSS-Keylogger in action: [Stored-XSS led to Keylogger injection](https://infosecwriteups.com/stored-xss-led-to-keylogger-injection-c788ab681eb)**
 
 ## Disclaimer
 **This tool is made for educational purposes only and I am not responsible for any abusive**
