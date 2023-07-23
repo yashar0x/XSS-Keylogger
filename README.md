@@ -31,7 +31,7 @@ Define the location of .crt and .key files in [server.js](server.js) file:
 
 **How to create a self-signed certificate using openssl: [LINK](https://devopscube.com/create-self-signed-certificates-openssl/)**
 
-Run Node.js server:
+Run Node.js server and wait for victim to type something:
 
         # node server.js
 
