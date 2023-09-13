@@ -6,7 +6,7 @@ Simple script that sends every keypresses by victim to a Node.js app on attacker
 
 On your Kali:
 
-`git clone https://github.com/yashar0x/XSS-Keylogger`
+        # git clone https://github.com/yashar0x/XSS-Keylogger
 
 `cd XSS-Keylogger`
 
