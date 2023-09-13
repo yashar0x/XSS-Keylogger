@@ -2,8 +2,7 @@
 Simple script that sends every keypresses by victim to a Node.js app on attacker side.
 
 ## Attacker
-
-On your Kali:
+Follow the steps below to clone the repository and install the dependencies:
 
         # git clone https://github.com/yashar0x/XSS-Keylogger
         # cd XSS-Keylogger
