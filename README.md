@@ -7,22 +7,20 @@ Simple script that sends every keypresses by victim to a Node.js app on attacker
 On your Kali:
 
         # git clone https://github.com/yashar0x/XSS-Keylogger
-
-`cd XSS-Keylogger`
+        # cd XSS-Keylogger
 
 Update the npm package manager globally to the latest version and clear the npm cache, which can help resolve certain installation issues:
 
-`npm install -g npm@latest`
-
-`npm cache clean --force`
+        # npm install -g npm@latest
+        # npm cache clean --force
 
 Initialize a new npm package in the current directory, creating a package.json file:
 
-`npm init`
+        # npm init
 
 Install the dependencies:
 
-`npm install express body-parser`
+        # npm install express body-parser
 
 Define the location of .crt and .key files in [server.js](server.js) file:
 
@@ -35,7 +33,7 @@ Define the location of .crt and .key files in [server.js](server.js) file:
 
 Run Node.js server and wait for victim to type something:
 
-`node server.js`
+        # node server.js
 
 ## Victim
 
