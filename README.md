@@ -37,7 +37,7 @@ cert: fs.readFileSync('{.crt file location}'),
 }, app);
 ```
 
-**How to create a self-signed certificate using openssl: [LINK](https://devopscube.com/create-self-signed-certificates-openssl/)**
+> [How to create a self-signed certificate using openssl](https://devopscube.com/create-self-signed-certificates-openssl/)
 
 Run Node.js server and wait for victim to type something:
 
