@@ -1,8 +1,5 @@
-# XSS-Keylogger
-Simple script that sends every keypresses by victim to a Node.js app on attacker side.
-
 ## Attacker
-Follow the steps below to clone the repository and install the dependencies:
+Follow the steps below
 
 ```bash
 git clone https://github.com/yashar0x/XSS-Keylogger
@@ -16,7 +13,7 @@ npm install -g npm@latest
 npm cache clean --force
 ```
 
-Initialize a new npm package in the current directory, creating a package.json file:
+Initialize a new npm package in the current directory:
 
 ```bash
 npm init
